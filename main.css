@@ -1,0 +1,22 @@
+body {
+    background-image: url(images/video-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover
+}
+
+
+ul.nav li {
+    display: inline-block;
+    list-style: disc;
+}
+#navbar {
+    display: inline;
+}
+.imgburger {
+    float: left;
+}
+#wedoburgers {
+    float: right;
+}
