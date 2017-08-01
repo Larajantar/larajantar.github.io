@@ -8,11 +8,11 @@
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-    <section class="logoandnav">
+    <section class="logoandnav"> <!-- Ты не знакома с методолгоями именования классов? -->
     <nav id="navbar">
         <a href="index.html" class="logo"><img src="images/logo.png" alt="mrBurger"></a>
             <ul class="nav">
-                <li><a href="#section0">О НАС </a></li>
+                <li><a href="#section0">О НАС </a></li> <!-- Если тебе требуется текст в верхнем регистре, то следует его делать таковым через стили с помощью свойства text-transform, а в html писать в нижнем регистре. -->
                 <li><a href="#section1">БУРГЕРЫ</a></li>
                 <li><a href="#section2">КОМАНДА</a></li>
                 <li><a href="#section3">МЕНЮ</a></li>
@@ -26,7 +26,7 @@
         <div class="imgburger">
              <img src="images/drops.png" alt="mrBurger">
         </div>
-        <div id="wedoburgers">
+        <div id="wedoburgers"> <!-- Стилизуя мы привязываемся к классам, не к идентификаторам. Нужно заменить из на классы.-->
              <h1 id="wedo">МЫ ДЕЛАЕМ</h1>
              <h1 id="natburgers">натуральные<br />бургеры</h1>
         </div>  
